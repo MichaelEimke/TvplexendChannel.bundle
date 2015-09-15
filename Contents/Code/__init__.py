@@ -145,7 +145,7 @@ def Channel(channelId, container=False):
         relProgress = (progress / duration) * 100
 
         summary = '%s - %s (%i min) ★ %i%% ★ %s ★ %s' % (
-            start, stop, duration, relProgress, epg['title'], summary
+            start, stop, duration, relProgress, title, summary
         )
 
 
